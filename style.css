@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, sans-serif;
+
+    margin: 40px auto 0 auto;
+
+    max-width:600px;
+
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px;
+}
+
+.things > div {
+    position: relative;
+}
+
+.things > div > b {
+    position: absolute;
+    right: 0;
+}
+
+
+
