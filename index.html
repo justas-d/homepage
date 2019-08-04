@@ -2,13 +2,8 @@
 <head>
     <meta charset="utf-8">
     <title>Justas Dabrila</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 
     <style>
-        body {
-            margin: 10% auto 0 auto;
-        }
-
         h1, h2 {
             line-height:1.2;
         }
@@ -21,32 +16,94 @@
             margin-right: auto;
         }
 
+        body {
+            font-family: Helvetica, sans-serif;
+
+            margin: 0 auto 0 auto;
+
+            max-width:600px;
+
+            line-height:1.6;
+            font-size:18px;
+            color:#444;
+            padding:0 10px;
+        }
+
+        .things > div {
+            position: relative;
+        }
+
+        .things > div > b {
+            position: absolute;
+            right: 0;
+        }
+
+        .right { float: right }
+        .email { display: block }
+
     </style>
 </head>
 <body>
     <h1>Hi,</h1>
 
-    <p>
-        I'm Justas "stormy" Dabrila and I mostly make programs
-    </p>
+    <div style="display: grid; grid-template-columns: auto auto;">
+        <div>
+            <div>I'm Justas "stormy" Dabrila.</div>
+            <div>
+                I make <a href="https://www.youtube.com/watch?v=NflCU9gEf-I">programs</a>
+                <small>
+                    <a href="https://www.youtube.com/watch?v=W0yKCpidQ-s">music</a>
+                    <a href="https://www.youtube.com/watch?v=5xgeZ16HpH0">games</a>
+                    <a href="http://www.themastersofpixelart.com/">drawing</a>
+                </small>
+            </div>
+        </div>
+        <div>
+            <div class="right"> 
+                <a class="right" href="https://twitter.com/justas_dabrila">@justas_dabrila</a>
+                <a class="email" href="">justasdabrila@gmail.com</a>
+                <div></div>
+            </div>
+        </div>
+    </div>
 
     <div class="things">
-        <h2>Things</h2>
+        <h2>Big Things</h2>
+        <div><b>Program</b><a href="/subpage/nimblefox/index.html"/>nimblefox</a></div>
         <div><b>Game</b><a href="https://ssstormy.itch.io/dont-waste-jams"/>DONT WASTE JAMS</a></div>
         <div><b>Program</b><a href="https://ssstormy.github.io/roll20-enhancement-suite/">VTT Enhancement Suite (R20ES)</a></div>
         <div><b>Program</b><a href="https://github.com/SSStormy/mpd-rich-presence-discord">MPD Discord Rich Presence</a></div>
         <div><b>Program</b><a href="https://github.com/SSStormy/vermintide-lua-hook">vermintide-lua-hook</a></div>
-        <div><a href="recycling.html"/>recycling</a>
     </div>
 
-    <hr>
-    <div class="info">
-        <div>
-            <small><a href="https://twitter.com/justas_dabrila">Twitter</a></small>
-            <small>stormy#0427</small>
-            <img src="img/info.png" alt=" "/>
-        </div>
+    <div class="things">
+        <h4>Small Things</h4>
+        <div>19-07-24<b>Music</b> <a href="audio/yeet.ogg">untitled sax satb</a></div>
+        <div>19-06-24<b>Game</b> <a href="img/turns.webm">turns</a></div>
+        <div>19-06-**<b>Program</b> <a href="https://github.com/SSStormy/shader-livecode">visually pleasing glsl shaders</a></div>
+        <div>19-03-24<b>Program</b> <a href="https://github.com/SSStormy/vim-no-escape">vim-no-escape</a></div>
+        <div>19-02-04<b>Video</b> <a href="https://www.youtube.com/watch?v=geRTX9sgGJo">REing Hotline Miami 2 Linux Steam DRM </a></div>
+        <div>19-02-03<b>Video</b> <a href="https://www.youtube.com/watch?v=UzQif6bJDnQ">REing Gamemaker Linux Steam DRM</a></div>
+        <div>19-02-01<b>Video</b> <a href="https://www.youtube.com/watch?v=93WLvPlTds4">cyboogie extreme stu closeups </a></div>
+        <div>19-01-13<b>Music</b> <a href="audio/Untitled-3-attb.ogg">untitled attb</a></div>
+        <div>19-01-06<b>Prototype</b> <a href="games/p-grappler/">platform grappler</a></div>
+        <div>18-12-31<b>Music</b> <a href="audio/reaction.mp3">reaction (for DONT WASTE JAMS)</a></div>
+        <div>18-12-25<b>Music</b> <a href="audio/2018-12-25-more-strings.ogg">more strings</a></div>
+        <div>18-12-24<b>Music</b> <a href="audio/2018-12-24-harpsisketch.ogg">harpsisketch</a></div>
+        <div>18-12-23<b>Music</b> <a href="audio/2018-12-23-enzo-sketch-mixed5.ogg">Enzo sketch</a></div>
+        <div>18-12-21<b>Program</b> <a href="https://gist.github.com/SSStormy/c53e2a90691e3c7dd1df739809b7caea">barycentric point vs poly</a></div>
+        <div>18-12-20<b>Program</b> <a href="https://gist.github.com/SSStormy/40edccd4b11f8fabf421f89aa2f1d1ca">barycentric point vs trii ntersection</a></div>
+        <div>18-12-04<b>Tool</b> <a href="https://ssstormy.github.io/spriteatlas/">spriteatlas</a></div>
+        <div>18-11-29<b>Music</b> <a href="audio/2018-11-29-2.mp3">2</a></div>
+        <div>18-09-04<b>Tool</b> <a href="https://github.com/SSStormy/roll20auth">roll20auth</a></div>
+        <div>18-05-08<b>Program</b> <a href="https://gist.github.com/SSStormy/94672346fabec1a82862dce85c6df835">cpp hotloading, linux</a></div>
+        <div>18-04-25<b>Video</b> <a href="https://www.youtube.com/watch?v=9baVLUN3qW0">square synths & square scenery</a></div>
+        <div>18-03-22<b>Music</b> <a href="audio/saw_doom.ogg">saw_doom</a></div>
+
+        <!--<div>2010-00-00 <b></b> <a href=""></a></div> -->
+
     </div>
+    <hr/>
 </body>
 
 
