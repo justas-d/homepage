@@ -320,7 +320,7 @@ local html = writer(function(a)
     <div style="
       text-align: center;
     ">
-      Built with help from Lua. <a class="fancy-url" href="https://github.com/SSStormy/ssstormy.github.io">View source</a>.
+      Built with help from Lua. <a class="fancy-url" href="https://github.com/SSStormy/homepage">View source</a>.
     </div>
 ]])
 
