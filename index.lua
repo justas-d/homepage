@@ -26,7 +26,7 @@ local html = writer(function(a)
 
     ]],generate_meta("Justas Dabrila", "I'm Justas 🙂. Here's what I'm working on!", nil, ""),[[
 
-    ]],title(),[[
+    ]],title("🙂 "),[[
 
     ]],font_work_sans(),[[
 
