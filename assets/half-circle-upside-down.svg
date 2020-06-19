@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="half-circle-upside-down.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8213"
+   version="1.1"
+   viewBox="0 0 71.625999 35.813"
+   height="35.813mm"
+   width="71.625999mm">
+  <defs
+     id="defs8207" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="20"
+     inkscape:window-x="0"
+     inkscape:window-height="1060"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="169.9302"
+     inkscape:cx="179.16374"
+     inkscape:zoom="1.4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata8210">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       sodipodi:nodetypes="cscc"
+       d="M 0,0 C 0,19.779108 16.034136,35.813244 35.813244,35.813244 55.592352,35.813244 71.626488,19.779108 71.626488,0 Z"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:10;stroke-linecap:square;stroke-linejoin:round"
+       id="path8776" />
+  </g>
+</svg>
