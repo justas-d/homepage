@@ -82,6 +82,9 @@ local function generate_redirection(path, redirect_to)
 end
 
 generate_redirection("puzzles/two-slitherlink.html", SITE_PATH .. "two-slitherlinks-1")
+generate_redirection("puzzles/two-slitherlink", SITE_PATH .. "two-slitherlinks-1")
 generate_redirection("puzzles/two-slitherlink/index.html", SITE_PATH .. "two-slitherlinks-1")
+
 generate_redirection("puzzles/two-slitherlink2.html", SITE_PATH .. "two-slitherlinks-2")
+generate_redirection("puzzles/two-slitherlink2", SITE_PATH .. "two-slitherlinks-2")
 generate_redirection("puzzles/two-slitherlink2/index.html", SITE_PATH .. "two-slitherlinks-2")
