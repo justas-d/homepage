@@ -55,3 +55,31 @@ process_script("coffee.lua")
 process_script("p-two-slitherlinks-1.lua")
 process_script("p-two-slitherlinks-2.lua")
 process_script("nimblefox.lua")
+
+local function generate_redirection(path, redirect_to)
+  local split_path = string_split(path, "/")
+  local only_dirs = string_concat(array_slice(split_path, 1, #split_path - 1), "/")
+
+  local content = concat([[
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="0; url=]],redirect_to,[[" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    ]],title(),[[
+  </head>
+
+  <body>
+    <a href="]],redirect_to,[[">If you are not being redirected, click here.</a>
+  </body>
+</html>
+  ]])
+
+  os.execute("mkdir -p " .. output_path .. "/" .. only_dirs)
+  output_file(path, content)
+end
+
+generate_redirection("puzzles/two-slitherlink.html", SITE_PATH .. "two-slitherlinks-1")
+generate_redirection("puzzles/two-slitherlink2.html", SITE_PATH .. "two-slitherlinks-2")

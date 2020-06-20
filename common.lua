@@ -10,6 +10,10 @@ function concat(...)
   return buf
 end
 
+function append(arr, el)
+  arr[#arr + 1] = el
+end
+
 function writer(fx)
   local buf = ""
 
@@ -54,6 +58,48 @@ function dump(obj, indent)
   else
     return tostring(obj)
   end
+end
+
+function string_split(str, split)
+
+  local prev_index = 1
+  local ret = {}
+
+  while true do
+    local next_index = string.find(str, split, prev_index, true)
+
+    if next_index == nil then
+      append(ret, string.sub(str, prev_index))
+      return ret
+    end
+
+    append(ret, string.sub(str, prev_index, next_index - 1))
+
+    prev_index = next_index + 1
+  end
+
+  return ret
+end
+
+function string_concat(str, separator)
+  if not separator then separator = "" end
+  local ret = ""
+
+  for i = 1, #str do
+    ret = ret .. str[i] .. separator
+  end
+
+  return ret
+end
+
+function array_slice(arr, from, to)
+  local ret = {}
+
+  for i = from, to - from + 1 do
+    append(ret, arr[i])
+  end
+
+  return ret
 end
 
 function gtag_script()
