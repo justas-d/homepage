@@ -69,7 +69,7 @@ local html = writer(function(a)
       .thing-type {
         display: inline-block; 
         font-size: 0.9em;
-        min-width: 58px;
+        min-width: 60px;
       }
 
       body {
@@ -89,6 +89,14 @@ local html = writer(function(a)
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: 1fr;
+      }
+
+      .thing-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 300px;
+        vertical-align: bottom;
       }
 
       @media (max-width: 1000px) {
@@ -296,7 +304,7 @@ local html = writer(function(a)
     <span class="hide-mobile thing-type">]],thing.type,[[</span>
   </monospace>
 
-  <a class="fancy-url" href=]],thing.link,[[>]],thing.name,[[</a>
+  <a class="fancy-url thing-name" href=]],thing.link,[[>]],thing.name,[[</a>
 </div>
     ]])
   end
