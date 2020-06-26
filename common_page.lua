@@ -130,8 +130,14 @@ function font_work_sans()
 
 end
 
-function title(str)
-  return concat("<title>", str, "Justas Dabrila", "</title>")
+function title(str, has_name)
+  if has_name == nil then has_name = true end
+
+  local name = "Justas Dabrila"
+  if not has_name then
+    name = ""
+  end
+  return concat("<title>", str, name, "</title>")
 end
 
 function generate_meta(title, desc, img, page_filename)

@@ -29,7 +29,7 @@ function generate_paper_puzzle(
 
     ]],font_work_sans(),[[
 
-    ]],title("🧩 " .. puzzle_name .. " | "),[[
+    ]],title("🧩 " .. puzzle_name, false),[[
 
     <style>
       html {
@@ -137,8 +137,6 @@ function generate_paper_puzzle(
       text-align: center;
     ">
       <p>
-        You can find more puzzles <a href="" class="fancy-url">here</a>.
-        <newline></newline>
         <a href="/" class="fancy-url">Made by Justas</a>
       </p>
     </bottom>
