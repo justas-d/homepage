@@ -16,7 +16,7 @@ for _, v in pairs(arg) do
 end
 
 if IS_RELEASE then
-  SITE_PATH = "https://ssstormy.github.io/"
+  SITE_PATH = "https://justas-d.github.io/"
 else
   SITE_PATH = "http://localhost:5000/"
 end

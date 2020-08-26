@@ -24,6 +24,8 @@ local html = writer(function(a)
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
 
+    <script data-ad-client="ca-pub-2086540246138416" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     ]],generate_meta("Justas Dabrila", "I'm Justas 🙂. Here's what I'm working on!", nil, ""),[[
 
     ]],title("🙂 "),[[
@@ -171,7 +173,7 @@ local html = writer(function(a)
 
     Notable Projects:
 
-    <a href="https://ssstormy.itch.io/in-a-game-wherein" class="card" style="
+    <a href="https://justas-d.itch.io/in-a-game-wherein" class="card" style="
       background-image: url('in-a-game-wherein.svg');
     ">
       <div class="inner">
@@ -223,7 +225,7 @@ local html = writer(function(a)
         Itch
       </a> 
 
-      <a class="fancy-url" href="https://github.com/SSStormy">
+      <a class="fancy-url" href="https://github.com/justas-d">
         <img src="github.svg">
         GitHub
       </a> 
@@ -257,38 +259,38 @@ local html = writer(function(a)
     make_thing("VTT Enhancement Suite", "20xx-xx-xx", pages.vttes, "Program"),
     make_thing("Snake Sokoban Spiral", "2019-10-08", "https://justas-d.itch.io/snake-sokoban-spiral", "Game"),
     make_thing("worldgen, seeds issue 4", "2019-xx-xx", "http://www.procjam.com/seeds/issues/4/issue4.pdf", "Article"),
-    make_thing("Visionban", "2019-09-29", "https://github.com/SSStormy/visionban", "Game"),
-    make_thing("C coroutines", "2019-09-27", "https://github.com/SSStormy/coroutine", "Program"),
-    make_thing("height", "2019-09-21", "https://ssstormy.github.io/height", "Game"),
-    make_thing("breakout", "2019-09-20", "https://ssstormy.github.io/breakout", "Game"),
-    make_thing("book", "2019-09-13", "https://ssstormy.github.io/book", "Game"),
-    make_thing("pull", "2019-09-07", "https://ssstormy.github.io/pull", "Game"),
-    make_thing("tetris-fill", "2019-09-01", "https://ssstormy.github.io/tetris-fill/", "Game"),
+    make_thing("Visionban", "2019-09-29", "https://github.com/justas-d/visionban", "Game"),
+    make_thing("C coroutines", "2019-09-27", "https://github.com/justas-d/coroutine", "Program"),
+    make_thing("height", "2019-09-21", "https://justas-d.github.io/height", "Game"),
+    make_thing("breakout", "2019-09-20", "https://justas-d.github.io/breakout", "Game"),
+    make_thing("book", "2019-09-13", "https://justas-d.github.io/book", "Game"),
+    make_thing("pull", "2019-09-07", "https://justas-d.github.io/pull", "Game"),
+    make_thing("tetris-fill", "2019-09-01", "https://justas-d.github.io/tetris-fill/", "Game"),
     make_thing("nimblefox", "2019-xx-xx", "nimblefox.html", "Program"),
     make_thing("sax satb", "2019-07-24", "audio/yeet.ogg", "Music"),
     make_thing("turns", "2019-06-24", "turns.webm", "Program"),
-    make_thing("visually pleasing glsl shaders", "2019-06-xx", "https://github.com/SSStormy/shader-livecode", "Program"),
-    make_thing("vim disable arrow keys", "2019-03-24", "https://github.com/SSStormy/vim-no-escape", "A Mess"),
+    make_thing("visually pleasing glsl shaders", "2019-06-xx", "https://github.com/justas-d/shader-livecode", "Program"),
+    make_thing("vim disable arrow keys", "2019-03-24", "https://github.com/justas-d/vim-no-escape", "A Mess"),
     make_thing("Reverse engineering GameMaker DRM", "2019-03-02", "https://www.youtube.com/watch?v=UzQif6bJDnQ", "Video"),
     make_thing("Reverse engineering Hotline Miami 2 DRM", "2019-03-02", "https://www.youtube.com/watch?v=geRTX9sgGJo", "Video"),
     make_thing("cyboogie extreme stu closeups", "2019-02-01", "https://www.youtube.com/watch?v=93WLvPlTds4", "Disaster"),
     make_thing("attb", "2019-01-13", "audio/Untitled-3-attb.ogg", "Music"),
     make_thing("grappler", "2019-01-06", "games/p-grappler/", "Program"),
     make_thing("dont waste jams", "2019-01-01", "https://justas-d.itch.io/dont-waste-jams", "Game"),
-    make_thing("MPD Discord Rich Presence", "2018-xx-xx", "https://github.com/SSStormy/mpd-rich-presence-discord", "Program"),
+    make_thing("MPD Discord Rich Presence", "2018-xx-xx", "https://github.com/justas-d/mpd-rich-presence-discord", "Program"),
     make_thing("reaction", "2018-12-31", "audio/reaction.mp3", "Music"),
     make_thing("more strings", "2018-12-25", "audio/2018-12-25-more-strings.ogg", "Music"),
     make_thing("harpsichord", "2018-12-24", "audio/2018-12-24-harpsisketch.ogg", "Music"),
     make_thing("enzo sketch", "2018-12-23", "audio/2018-12-23-enzo-sketch-mixed5.ogg", "Music"),
-    make_thing("spriteatlas", "2018-12-04", "https://ssstormy.github.io/spriteatlas/", "Program"),
+    make_thing("spriteatlas", "2018-12-04", "https://justas-d.github.io/spriteatlas/", "Program"),
     make_thing("2", "2018-11-29", "audio/2018-11-29-2.mp3", "Music"),
-    make_thing("roll20auth", "2018-09-04", "https://github.com/SSStormy/roll20auth", "Program"),
-    make_thing("cpphotload", "2018-05-08", "https://gist.github.com/SSStormy/94672346fabec1a82862dce85c6df835", "Program"),
+    make_thing("roll20auth", "2018-09-04", "https://github.com/justas-d/roll20auth", "Program"),
+    make_thing("cpphotload", "2018-05-08", "https://gist.github.com/justas-d/94672346fabec1a82862dce85c6df835", "Program"),
     make_thing("square synths & square scenery", "2018-04-25", "https://www.youtube.com/watch?v=9baVLUN3qW0", "Demo"),
     make_thing("saw_doom", "2018-03-22", "audio/saw_doom.ogg", "Music"),
-    make_thing("Vermintide LUA Hook", "2017-xx-xx", "https://github.com/SSStormy/vermintide-lua-hook", "Program"),
-    make_thing("C# Runescape Server", "2017-xx-xx", "https://github.com/SSStormy/cscape", "Program"),
-    make_thing("OpenTerrariaClient", "2017-xx-xx", "https://github.com/SSStormy/OpenTerrariaClient", "Program"),
+    make_thing("Vermintide LUA Hook", "2017-xx-xx", "https://github.com/justas-d/vermintide-lua-hook", "Program"),
+    make_thing("C# Runescape Server", "2017-xx-xx", "https://github.com/justas-d/cscape", "Program"),
+    make_thing("OpenTerrariaClient", "2017-xx-xx", "https://github.com/justas-d/OpenTerrariaClient", "Program"),
   }
 
   local left_dump = ""
@@ -328,7 +330,7 @@ local html = writer(function(a)
     <div style="
       text-align: center;
     ">
-      Built with help from Lua. <a class="fancy-url" href="https://github.com/SSStormy/homepage">View source</a>.
+      Built with help from Lua. <a class="fancy-url" href="https://github.com/justas-d/homepage">View source</a>.
     </div>
 ]])
 
