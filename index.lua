@@ -141,7 +141,7 @@ local html = writer(function(a)
     Currently, I am:
 
     <div class="currently">
-      <a href="https://twitter.com/Justas_Dabrila/status/1247187567574908928" class="card" style="
+      <a href="https://twitter.com/Justas_Dabrila/status/1319302743757119493" class="card" style="
         background-image: url('crate-worlds.svg'); 
         background-size: 100%;
       ">
@@ -151,7 +151,7 @@ local html = writer(function(a)
             <newline></newline>
             A Game
             <newline></newline>
-            <small><i>Soko-Islands</i></small>
+            <small><i>Name TBD</i></small>
           </h1>
         </div>
       </a>
@@ -245,12 +245,13 @@ local html = writer(function(a)
       margin-bottom: 32px;
     ">
       <emoji>🎹</emoji> 
-      Some Things I Have Made
+      Some Things I've Made/Been a Part of
       <small>(<i>including the awful ones</i>)</small>
     </h3>
   ]])
 
   local things = {
+    make_thing("Dr Jelly and Mr Slime (as part of thinkycollective)", "2020-07-31", "https://thinkycollective.itch.io/dr-jelly-and-mr-slime", "Puzzle"),
     make_thing("Two Slitherlinks 2", "2020-06-12", "two-slitherlinks-2", "Puzzle"),
     make_thing("Two Slitherlinks", "2020-05-26", "two-slitherlinks-1", "Puzzle"),
     make_thing("In a Game Wherein", "2020-04-13", "https://justas-d.itch.io/in-a-game-wherein", "Game"),
@@ -306,7 +307,7 @@ local html = writer(function(a)
     <span class="hide-mobile thing-type">]],thing.type,[[</span>
   </monospace>
 
-  <a class="fancy-url thing-name" href=]],thing.link,[[>]],thing.name,[[</a>
+  <a class="fancy-url thing-name" href=]],thing.link,[[ title="]],thing.name,[[">]],thing.name,[[</a>
 </div>
     ]])
   end
@@ -329,6 +330,7 @@ local html = writer(function(a)
 
     <div style="
       text-align: center;
+      font-size: 0.85em;
     ">
       Built with help from Lua. <a class="fancy-url" href="https://github.com/justas-d/homepage">View source</a>.
     </div>
