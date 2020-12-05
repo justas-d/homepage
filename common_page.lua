@@ -57,53 +57,6 @@ function make_styles(color)
       }
     ]]),
 
-    cards = concat([[
-      .card h1 {
-        font-size: 1em;
-        padding: 0;
-        margin: 0;
-        font-weight: bold;
-        line-height: 1.1;
-        text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.75)
-      }
-
-      @keyframes card-hover  {
-        0% {
-        }
-        100% {
-          transform: translateY(-2px);
-        }
-      }
-
-      .card {
-        background-color: orange;
-        min-width: 200px;
-        min-height: 200px;
-        border-radius: 10px;
-        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
-        margin: 16px;
-        display: flex;
-        text-decoration: none;
-
-        background-size: cover;
-        background-position: center;
-      }
-
-      .card:hover {
-        animation: card-hover linear 0.1s forwards;
-      }
-
-      .card .inner {
-        font-size: 1.5em;
-        color: whitesmoke;
-        width: 70%;
-        height: 70%;
-        margin: auto;
-      }
-
-
-    ]]),
-
     breaks = concat([[
       break {
         display: block;

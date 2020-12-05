@@ -36,9 +36,52 @@ local html = writer(function(a)
       ]],styles.hightlight,[[
       ]],styles.headers,[[
       ]],styles.fancy_url,[[
-      ]],styles.cards,[[
       ]],styles.newline,[[
       ]],styles.breaks,[[
+
+      .card h1 {
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        line-height: 1.1;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9)
+      }
+
+      @keyframes card-hover  {
+        0% {
+        }
+        100% {
+          transform: translateY(-2px);
+        }
+      }
+
+      .card {
+        background-color: orange;
+        min-width: 200px;
+        min-height: 200px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.35);
+        margin: 16px;
+        display: flex;
+        text-decoration: none;
+
+        background-size: cover;
+        background-position: center;
+      }
+
+      .card:hover {
+        animation: card-hover linear 0.1s forwards;
+      }
+
+      .card .inner {
+        font-size: 1.5em;
+        color: whitesmoke;
+        width: 70%;
+        height: 70%;
+        margin: auto;
+      }
+
 
       monospace {
         font-family: monospace;
@@ -147,9 +190,7 @@ local html = writer(function(a)
       ">
         <div class="inner">
           <h1 class="shadow-text">
-            Building
-            <newline></newline>
-            A Game
+            Building A Game
             <newline></newline>
             <small><i>Name TBD</i></small>
           </h1>
@@ -251,6 +292,8 @@ local html = writer(function(a)
   ]])
 
   local things = {
+    make_thing("Music Visualizer", "2020-12-05", "https://www.youtube.com/watch?v=A9WNz7g0lJ8", "Shader"),
+    make_thing("Mandelbrot variable warping", "2020-12-02", "https://www.youtube.com/watch?v=d6jvsPck3oc", "Shader"),
     make_thing("Dr Jelly and Mr Slime (as part of thinkycollective)", "2020-07-31", "https://thinkycollective.itch.io/dr-jelly-and-mr-slime", "Puzzle"),
     make_thing("Two Slitherlinks 2", "2020-06-12", "two-slitherlinks-2", "Puzzle"),
     make_thing("Two Slitherlinks", "2020-05-26", "two-slitherlinks-1", "Puzzle"),

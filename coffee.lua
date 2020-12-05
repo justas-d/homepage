@@ -29,17 +29,58 @@ local html = writer(function(a)
 
       ]],styles.fancy_url,[[
       ]],styles.headers,[[
-      ]],styles.cards,[[
       ]],styles.newline,[[
+
+      .card h1 {
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        line-height: 1.1;
+        text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.75)
+      }
+
+      @keyframes card-hover  {
+        0% {
+        }
+        100% {
+          transform: translateY(-2px);
+        }
+      }
+
+      .card {
+        background-color: orange;
+        min-width: 200px;
+        min-height: 200px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.4);
+        margin: 16px;
+        display: flex;
+        text-decoration: none;
+
+        background-size: cover;
+        background-position: center;
+      }
+
+      .card:hover {
+        animation: card-hover linear 0.1s forwards;
+      }
+
+      .card .inner {
+        font-size: 1.5em;
+        color: whitesmoke;
+        height: 70%;
+        margin: auto;
+
+        display: grid;
+        grid-template-rows: 50% 1em 1em;
+
+        width: 100%;
+      }
 
       html {
         background: rgb(255,116,63);
         background: linear-gradient(136deg, rgba(255,116,63,1) 0%, rgba(254,180,132,1) 100%);
-      }
-
-      .card .inner {
-        display: grid;
-        grid-template-rows: 50% 1em 1em;
       }
 
       ::selection {
@@ -171,6 +212,24 @@ local html = writer(function(a)
           </div>
         </a>
 
+        <a href="https://www.patreon.com/bePatron?u=11619189" class="card" style="
+          background-image: url('patreon.svg');
+          background-size: 100%;
+          filter: saturate(60%);
+        ">
+          <div class="inner">
+            <h1 style="
+              display: flex; 
+              justify-content: center;
+            ">
+              <span style="align-self: flex-end">Patreon</span>
+            </h1>
+            <small>Recurring</small>
+            <small>Has Tax, Fees</small>
+          </div>
+        </a>
+
+
         <a href="https://www.buymeacoffee.com/stormy" class="card" style="
           background-image: url('bmc.svg');
           background-size: 100%;
@@ -193,10 +252,8 @@ local html = writer(function(a)
       <div class="description">
         I'm currently maintaining 
         <a href="]],pages.vttes,[[" class="fancy-url">🎲 VTTES</a>, 
-        making 
-        <a href="]],pages.games,[[" class="fancy-url">🎮 puzzle games</a>
-        and making
-        <a href="]],pages.logic_puzzles,[[" class="fancy-url">🧩 logic puzzles</a>. 
+        and making 
+        <a href="]],pages.games,[[" class="fancy-url">🎮 puzzle games</a>.
         <newline></newline>
 
         All of which are free. 
