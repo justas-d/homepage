@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-lua build.lua --release
+lua5.3 build.lua --release
 
 cd ../output/ 
 git add . 
