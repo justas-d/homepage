@@ -114,7 +114,7 @@ local html = writer(function(a)
       .thing-type {
         display: inline-block; 
         font-size: 0.9em;
-        min-width: 60px;
+        min-width: 64px;
       }
 
       body {
@@ -274,7 +274,7 @@ local html = writer(function(a)
 
     <div>
       📧 You can also email me! Just piece this together: 
-      <span class="highlight">com@justasdabrila.gmail</span>
+      <span>com@justasdabrila.gmail</span>
     </div>
 
     <div>
@@ -292,6 +292,9 @@ local html = writer(function(a)
   ]])
 
   local things = {
+    make_thing("pico8 thing", "2021-02-25", "https://twitter.com/Justas_Dabrila/status/1365006988355264516", "Tweetcart"),
+    make_thing("pico8 fire", "2021-02-13", "https://twitter.com/Justas_Dabrila/status/1360614259621789696", "Tweetcart"),
+    make_thing("Ahoist Cratey (as part of thinkycollective)", "2021-01-28", "https://thinkycollective.itch.io/ahoist-cratey", "Puzzle"),
     make_thing("Music Visualizer", "2020-12-05", "https://www.youtube.com/watch?v=A9WNz7g0lJ8", "Shader"),
     make_thing("Mandelbrot variable warping", "2020-12-02", "https://www.youtube.com/watch?v=d6jvsPck3oc", "Shader"),
     make_thing("Dr Jelly and Mr Slime (as part of thinkycollective)", "2020-07-31", "https://thinkycollective.itch.io/dr-jelly-and-mr-slime", "Puzzle"),

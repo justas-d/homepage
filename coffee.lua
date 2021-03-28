@@ -208,7 +208,7 @@ local html = writer(function(a)
               <span style="align-self: flex-end">PayPal.me</span>
             </h1>
             <small>Single</small>
-            <small>No Fees</small>
+            <small>No Fees (sometimes)</small>
           </div>
         </a>
 
@@ -226,24 +226,6 @@ local html = writer(function(a)
             </h1>
             <small>Recurring</small>
             <small>Has Tax, Fees</small>
-          </div>
-        </a>
-
-
-        <a href="https://www.buymeacoffee.com/stormy" class="card" style="
-          background-image: url('bmc.svg');
-          background-size: 100%;
-          filter: saturate(60%);
-        ">
-          <div class="inner">
-            <h1 style="
-              display: flex; 
-              justify-content: center;
-            ">
-              <span style="align-self: flex-end">BMC</span>
-            </h1>
-            <small>Single/Recurring</small>
-            <small>Split Fee</small>
           </div>
         </a>
 
