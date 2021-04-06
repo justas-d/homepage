@@ -292,6 +292,7 @@ local html = writer(function(a)
   ]])
 
   local things = {
+    make_thing("just-json", "2021-04-05", "https://github.com/justas-d/just-json", "header"),
     make_thing("pico8 thing", "2021-02-25", "https://twitter.com/Justas_Dabrila/status/1365006988355264516", "Tweetcart"),
     make_thing("pico8 fire", "2021-02-13", "https://twitter.com/Justas_Dabrila/status/1360614259621789696", "Tweetcart"),
     make_thing("Ahoist Cratey (as part of thinkycollective)", "2021-01-28", "https://thinkycollective.itch.io/ahoist-cratey", "Puzzle"),
