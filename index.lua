@@ -251,10 +251,6 @@ local html = writer(function(a)
     </div>
 
     <div>
-      🌍 Currently based in Kaunas, Lithuania.
-    </div>
-
-    <div>
       🔗 I'm on 
       <a class="fancy-url" href="https://twitter.com/Justas_Dabrila">
         <img src="twitter.svg">
