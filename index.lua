@@ -274,7 +274,7 @@ local html = writer(function(a)
     </div>
 
     <div>
-      If you want to buy me a coffee, you can <a class="fancy-url" href="]],pages.coffee,[[">☕ here</a>!
+      If you want to buy me a coffee or give me money, you can <a class="fancy-url" href="]],pages.coffee,[[">☕ here (Patreon & PayPal)</a>!
     </div>
 
     <h3 style="
