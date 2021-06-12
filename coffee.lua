@@ -195,7 +195,7 @@ local html = writer(function(a)
   a([[
     <center>
       <div class="cards">
-        <a href="https://www.paypal.me/JustasDabrila" class="card" style="
+        <a href="https://www.paypal.me/Dabrila" class="card" style="
           background-image: url('paypal.svg');
           background-size: 100%;
           filter: saturate(60%);
