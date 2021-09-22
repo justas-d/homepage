@@ -288,6 +288,9 @@ local html = writer(function(a)
   ]])
 
   local things = {
+    make_thing("recursive kaleidoscope", "2021-09-20", "https://www.youtube.com/watch?v=P-dB_cfD38w", "Shader"),
+    make_thing("seq 21 08 19", "2021-08-19", "https://www.youtube.com/watch?v=Jpefd7AMVAM", "Music"),
+    make_thing("Crime Time (with friends)", "2021-07-xx", "https://www.youtube.com/watch?v=uYNjbDV-0aU", "Game"),
     make_thing("just-json", "2021-04-05", "https://github.com/justas-d/just-json", "header"),
     make_thing("pico8 thing", "2021-02-25", "https://twitter.com/Justas_Dabrila/status/1365006988355264516", "Tweetcart"),
     make_thing("pico8 fire", "2021-02-13", "https://twitter.com/Justas_Dabrila/status/1360614259621789696", "Tweetcart"),
